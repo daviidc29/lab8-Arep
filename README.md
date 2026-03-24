@@ -248,7 +248,8 @@ A basic manual test flow is:
 
 Video:
 
-[![Watch the demo](./img/image-5.png)](./img/Secure%20Lab.mp4)
+[![Watch the demo](img/image-5.png)](img/Secure%20Lab.mp4)
+
 
 ### And coding style tests
 
