@@ -1,0 +1,21 @@
+# vscode
+.vscode/
+# target
+target/
+# logs
+logs/
+*.log
+# OS generated files
+.DS_Store
+Thumbs.db
+# maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+# maven local repository
+.m2/repository/
+# spring boot devtools
+spring-boot-devtools-*.jar
+# intellijiDEA
+.idea/
+# maven
+pom.xml.tag
+pom.xml.releaseBackup

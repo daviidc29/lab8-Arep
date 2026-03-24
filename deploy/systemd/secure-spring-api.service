@@ -1,0 +1,15 @@
+[Unit]
+Description=Secure Spring API
+After=network.target
+
+[Service]
+User=ec2-user
+WorkingDirectory=/opt/secure-spring-api
+EnvironmentFile=/etc/secure-spring-api/secure-spring-api.env
+ExecStart=/usr/bin/java -jar /opt/secure-spring-api/secure-spring-api-1.0.0.jar
+SuccessExitStatus=143
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
